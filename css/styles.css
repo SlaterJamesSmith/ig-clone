@@ -10,10 +10,11 @@
   margin-bottom: 5em;
   align-items: center;
   height: 5em;
+  border-bottom: 1px solid lightgrey;
 }
 
 body {
-  background-color: lightgrey;
+  background-color: #fafafa;
   margin: 0;
 }
 
@@ -33,6 +34,23 @@ body {
 
 .buttons {
   margin-right: 2em;
+}
+
+.logins {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+#login {
+  background-color: #3897f0;
+  color: white;
+  height: 2.5em;
+  width: 5em;
+}
+
+#signup {
+  border: 0;
+  color: #3897f0;
 }
 
 
