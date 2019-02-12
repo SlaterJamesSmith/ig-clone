@@ -25,11 +25,17 @@ body {
 
 #search {
   width: 215px;
-  height: 28px;
+  height: 25px;
   display: inline-block;
   text-align: center;
   margin-right: auto;
   margin-left: auto;
+  background-color: #fafafa;
+  border: 1px solid lightgrey;
+  color: grey;
+  font-size: 14px;
+  font-weight: lighter;
+  border-radius: 3px
 }
 
 .buttons {
@@ -44,6 +50,8 @@ body {
 #login {
   background-color: #3897f0;
   color: white;
+  border-radius: 5px;
+  border: 0;
   height: 2.5em;
   width: 5em;
 }
