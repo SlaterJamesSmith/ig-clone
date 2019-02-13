@@ -2,6 +2,35 @@
   border: 2px solid pink;
 } */
 
+.test {
+  color: black;
+  position: relative;
+  margin-top: -59.5px;
+  margin-left: 40%;
+  font-size: 12px;
+  font-weight: bold;
+  font-family: helvetica;
+  letter-spacing: 2px;
+}
+
+.test2 {
+  color: black;
+  position: relative;
+  margin-top: -26px;
+  margin-left: 19%;
+  font-size: 12px;
+  font-weight: bold;
+  font-family: helvetica;
+  letter-spacing: 2px;
+  color: lightgrey;
+}
+
+.test-bold {
+  letter-spacing: 0;
+  color: black;
+}
+
+
 body {
   background-color: #fafafa;
   margin: 0;
@@ -152,6 +181,7 @@ strong {
   }
 }
 
+
 @media screen and (max-width:974px) and (min-width:735px) {
   .stats {
     display: flex;
@@ -192,6 +222,56 @@ strong {
   .stats {
     display: none;
   }
+
+  .nav {
+    margin-bottom: 1.3em;
+  }
+
+  .test {
+    display: none;
+  }
+
+  #follow {
+    margin-left: 0;
+    margin-top: 0;
+  }
+
+  h1 {
+    margin-bottom: .25em;
+    margin-top: 0;
+  }
+
+  .title-button {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .title-row {
+    margin-left: 1em;
+  }
+
+
+  .prof-pic {
+    width: 4.5em;
+    margin-left: 1em;
+    margin-top: .2em;
+    float:left;
+    margin-right: 1.5em;
+    margin-bottom: 1.5em;
+  }
+
+
+
+
+  h4 {
+    font-size: 14px;
+  }
+
+  p {
+    font-size: 14px;
+    margin-right: 2.5em;
+  }
+
   .images {
     display: flex;
     width: 100vw;
