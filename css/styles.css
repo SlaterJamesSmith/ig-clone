@@ -2,33 +2,7 @@
   border: 2px solid pink;
 } */
 
-.test {
-  color: black;
-  position: relative;
-  margin-top: -59.5px;
-  margin-left: 40%;
-  font-size: 12px;
-  font-weight: bold;
-  font-family: helvetica;
-  letter-spacing: 2px;
-}
 
-.test2 {
-  color: black;
-  position: relative;
-  margin-top: -26px;
-  margin-left: 19%;
-  font-size: 12px;
-  font-weight: bold;
-  font-family: helvetica;
-  letter-spacing: 2px;
-  color: lightgrey;
-}
-
-.test-bold {
-  letter-spacing: 0;
-  color: black;
-}
 
 
 body {
@@ -146,6 +120,36 @@ strong {
 
 
 @media screen and (min-width:975px) {
+
+  .test {
+    color: black;
+    position: absolute;
+    margin-top: -59.5px;
+    margin-left: 40vw;
+    font-size: 12px;
+    font-weight: bold;
+    font-family: helvetica;
+    letter-spacing: 2px;
+  }
+
+  .test2 {
+    color: black;
+    position: absolute;
+    margin-top: -26px;
+    margin-left: 7vw;
+    /* margin-right: 165%; */
+    font-size: 12px;
+    font-weight: bold;
+    font-family: helvetica;
+    letter-spacing: 2px;
+    color: lightgrey;
+  }
+
+  .test-bold {
+    letter-spacing: 0;
+    color: black;
+  }
+
   .stats {
     display: flex;
     width: 20em;
@@ -183,6 +187,34 @@ strong {
 
 
 @media screen and (max-width:974px) and (min-width:735px) {
+  .test {
+    color: black;
+    position: relative;
+    margin-top: -59.5px;
+    margin-left: 40%;
+    font-size: 12px;
+    font-weight: bold;
+    font-family: helvetica;
+    letter-spacing: 2px;
+  }
+
+  .test2 {
+    color: black;
+    position: relative;
+    margin-top: -26px;
+    margin-left: 19%;
+    font-size: 12px;
+    font-weight: bold;
+    font-family: helvetica;
+    letter-spacing: 2px;
+    color: lightgrey;
+  }
+
+  .test-bold {
+    letter-spacing: 0;
+    color: black;
+  }
+
   .stats {
     display: flex;
     width: 20em;
@@ -219,6 +251,35 @@ strong {
 }
 
 @media screen and (max-width:734px){
+
+  .test {
+    color: black;
+    position: relative;
+    margin-top: -59.5px;
+    margin-left: 40%;
+    font-size: 12px;
+    font-weight: bold;
+    font-family: helvetica;
+    letter-spacing: 2px;
+  }
+
+  .test2 {
+    color: black;
+    position: relative;
+    margin-top: -26px;
+    margin-left: 19%;
+    font-size: 12px;
+    font-weight: bold;
+    font-family: helvetica;
+    letter-spacing: 2px;
+    color: lightgrey;
+  }
+
+  .test-bold {
+    letter-spacing: 0;
+    color: black;
+  }
+
   .stats {
     display: none;
   }
